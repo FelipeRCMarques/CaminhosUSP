@@ -1,0 +1,1 @@
+http://download.osgeo.org/qgis/win64/QGIS-OSGeo4W-3.4.4-1-Setup-x86_64.exe
