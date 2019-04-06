@@ -1,0 +1,26 @@
+assuntos:
+
+localização/horarios das aulas é desorganizado e causa muita confusão na USP***
+
+melhoria de comunicacao entre professor e aluno
+
+controle de frequencia automatizado pelo cartao USP
+
+rota do circular da usp, rotas entre locais da USP (o maps nao ajuda), aplicativos que centralizam diversas informações, aplicativo que aprende com os habitos dos usuarios para indicar rotas, acessibilidade, etc, usuario apontar informacoes sobre o campus, ferramentas para unir pessoas que precisam conversar de modo a ajudar na saude mental, aplicativo semelhante ao yellow, para evitar poluição do app ***
+
+saude mental: não há vagas disponiveis no IP e outras faculdades, e quando há nem sempre é a mesma pessoa atendendo, pessoas tratam assunto como tabu e preferem não discutir o assunto, 
+
+filas: para bandejar, p/ pegar o circular, P/IR PRA PROVA data science para estimar tamanho da fila do bandejao com base nas rodadas (iot) de catraca e no texto do cardapio***
+
+temos sensores
+
+automatização do clima das salas de aula, da luz, dos computadores logados, projetor etc***
+
+fluxograma no jupiter automatizado dos cursos para auziliar no planejamento da graduação indicando obrigatorias, requisitos, aprovações, reprovações etc, indicar optativas com base no historico do usuario, ***
+
+
+
+
+
+
+
