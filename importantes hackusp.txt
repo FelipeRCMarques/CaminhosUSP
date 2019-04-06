@@ -1,4 +1,4 @@
-rota do circular da usp, rotas entre locais da USP (o maps nao ajuda), aplicativos que centralizam diversas informações, aplicativo que aprende com os habitos dos usuarios para indicar rotas, acessibilidade, etc, usuario apontar informacoes sobre o campus, ferramentas para unir pessoas que precisam conversar de modo a ajudar na saude mental, aplicativo semelhante ao yellow, para evitar poluição do app, filas: para bandejar, p/ pegar o circular, P/IR PRA PROVA data science para estimar tamanho da fila/melhor cardapio/, do bandejao com base nas rodadas (iot) de catraca e no texto do cardapio e nos likes , superlikes e feedback do usuario um clique, calorias, maior distancia/subidas***
+﻿rota do circular da usp, rotas entre locais da USP (o maps nao ajuda), aplicativos que centralizam diversas informações, aplicativo que aprende com os habitos dos usuarios para indicar rotas, acessibilidade, etc, usuario apontar informacoes sobre o campus, ferramentas para unir pessoas que precisam conversar de modo a ajudar na saude mental, aplicativo semelhante ao yellow, para evitar poluição do app, filas: para bandejar, p/ pegar o circular, P/IR PRA PROVA data science para estimar tamanho da fila/melhor cardapio/, do bandejao com base nas rodadas (iot) de catraca e no texto do cardapio e nos likes , superlikes e feedback do usuario um clique, calorias, maior distancia/subidas***
 
 
 automatização do clima das salas de aula, da luz, dos computadores logados, projetor etc***
@@ -14,3 +14,7 @@ fluxograma no jupiter automatizado dos cursos para auxiliar no planejamento da g
 dicas do mentor: ter alguma rentabilidade, aprovou a ideia do app 
 
 mais dicas: nao reinventar a roda e partir de algo que já existe (usar APIS), gameficar o app,  montar modelo de negocio, 
+
+
+
+dicas mentor: crawler para ler emails da PUSP sobre interdições no CAMPUS, legal colocar pins interessantes no maps, achou legal o indice de caminhabilidade, usar pessoas que precisam de acessibilidade para exemplificar o problema que o app irá ajudar a solucionar. 
