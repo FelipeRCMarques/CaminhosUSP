@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Getting Started - Leaflet js Map interactive library</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script
+  src="http://www.liedman.net/lrm-mapbox/dist/lrm-mapbox-1.0.4.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+</head>
+<body>
+<div id="map" style="width: 1000px; height: 600px;"></div>
+<script>
+	var myLocation;
+
+	var USP = L.map('map').setView([38,-77], 13);
+	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+	attribution: '&copy; <a href=”http://osm.org/copyright”>OpenStreetMap</a> contributors'
+	}).addTo(USP);
+
+
+	USP.locate({setView: false, maxZoom: 16});
+	function onLocationFound(e) {
+    var radius = e.accuracy / 2;
+    myLocation = e.latlng;
+
+    L.marker(e.latlng).addTo(USP)
+        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+
+    L.circle(e.latlng, radius).addTo(USP);
+	}
+
+	USP.on('locationfound', onLocationFound);
+
+
+	$.getJSON("roads.geojson",function(data){
+	var datalayer = L.geoJson(data).addTo(USP);
+	USP.fitBounds(datalayer.getBounds());
+	});
+
+	L.Routing.control({
+		waypoints: [
+    		L.latLng(-23.561581, -46.725600),
+    		L.latLng(-23.564689, -46.724928)
+  		],
+		router: L.Routing.mapbox('pk.eyJ1IjoibGFtYXJjYTk2IiwiYSI6ImNqdTZ0M2h1czBsd2o0ZW13dXk5ZXAycXcifQ.N3FtpxiQvJW5s128UQdq3g',{
+  profile: 'mapbox/walking'
+	})
+	}).addTo(USP);
+
+</script>
+</body>
+</html>
