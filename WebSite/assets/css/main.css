@@ -291,15 +291,15 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
-	hr {
+	/*hr {
 		border: 0;
-		border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+		/*border-bottom: solid 1px rgba(210, 215, 217, 0.75);
 		margin: 2em 0;
-	}
+	}*/
 
-		hr.major {
+		/*hr.major {
 			margin: 3em 0;
-		}
+		}*/
 
 	.align-left {
 		text-align: left;
@@ -1797,7 +1797,7 @@ input, select, textarea {
 	}
 
 	header.major > :last-child {
-		border-bottom: solid 3px #f56a6a;
+		border-bottom: solid 3px #103737;
 		display: inline-block;
 		margin: 0 0 2em 0;
 		padding: 0 0.75em 0.5em 0;
@@ -1814,7 +1814,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #3d4449;
+		color: #103737;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
@@ -3092,7 +3092,7 @@ input, select, textarea {
 		-webkit-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 		-ms-transition: margin-left 0.5s ease, box-shadow 0.5s ease;
 		transition: margin-left 0.5s ease, box-shadow 0.5s ease;
-		background-color: #f5f6f7;
+		background-color: #F7B026/*f5f6f7*/;
 		font-size: 0.9em;
 		position: relative;
 		width: 26em;
@@ -3108,7 +3108,7 @@ input, select, textarea {
 			width: 26em;
 		}
 
-			#sidebar > .inner > * {
+			/*#sidebar > .inner > * {
 				border-bottom: solid 2px rgba(210, 215, 217, 0.75);
 				margin: 0 0 3.5em 0;
 				padding: 0 0 3.5em 0;
@@ -3122,7 +3122,7 @@ input, select, textarea {
 					border-bottom: 0;
 					margin-bottom: 0;
 					padding-bottom: 0;
-				}
+				}*/
 
 			#sidebar > .inner > .alt {
 				background-color: #eff1f2;
@@ -3270,7 +3270,7 @@ input, select, textarea {
 			}
 
 				#sidebar .toggle:before {
-					color: #7f888f;
+					color: #1092A9;
 					margin-left: -0.0625em;
 					margin-top: -0.25em;
 					font-size: 1.1rem;
@@ -3354,6 +3354,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 6em 0 4em 0 ;
+		background-color: #1092A9;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3405,12 +3406,7 @@ input, select, textarea {
 
 		@media screen and (orientation: portrait) {
 
-			#banner {
-				-moz-flex-direction: column-reverse;
-				-webkit-flex-direction: column-reverse;
-				-ms-flex-direction: column-reverse;
-				flex-direction: column-reverse;
-			}
+			#banner {			}
 
 				#banner h1 br {
 					display: none;
@@ -3567,3 +3563,51 @@ input, select, textarea {
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1092A9;  
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav img
+{
+	float: left;
+}
+
+.d1{	
+  background-color: #1092A9;  
+  text-align: center;
+}
+
+.d1 p
+{
+	color: white;
+}
+
+.d2 {
+	background-color: white;
+}
