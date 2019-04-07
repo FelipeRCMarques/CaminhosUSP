@@ -1,0 +1,25 @@
+<form action="/" style="border:1px solid #ccc" method="post">
+										<div class="container">
+										  <p>Selecione o tipo da ocorrência e informe o que houve:</p>
+										  
+									  
+										  <select name="example">
+												<option value="QuedaArvore">Queda de Árvore</option>
+												<option value="CofeeBreak">Cofee Break</option>
+												<option value="-">Other</option>
+											  </select>
+
+
+										  <label for="Descricao"><b>Name</b></label>
+										  <input type="text" placeholder="Informe o que houve:" name="Descricao" required>
+									  
+										  
+									  
+									  
+										  <div class="clearfix">
+									  
+										   <a href="/"><button type="button" class="cancelbtn">Cancelar</button></a>
+											<button type="submit" onclick="onclick();" class="signupbtn">Informar</button>
+										  </div>
+										</div>
+									  </form>
